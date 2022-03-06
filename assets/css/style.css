@@ -212,17 +212,15 @@ section {
 .contact {
     background-color: #024e76;
     text-align: center;
-    overflow: auto;
 }
 .contact h2 {
     color: #fce138;
 }
-.contact iframe {
+.contact-info iframe {
     width: 400px;
     height: 400px;
-    float: left;
 }
-.contact-info, .contact-form {
+.contact-info div {
     width: 410px;
     display: inline-block;
     vertical-align: top;
@@ -230,7 +228,7 @@ section {
     margin: 30px 0 0 60px;
     color: white;
 }
-.contact-info h3, .contact-form h3 {
+.contact-info h3 {
     color: #fce138;
     font-size: 32px;
 }
